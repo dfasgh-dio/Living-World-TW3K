@@ -1,0 +1,49 @@
+# ===== 仓库安全白名单 =====
+# 默认全部忽略，仅放行自研源码/测试/文档/清单
+/*
+
+# 放行目录
+!df02/
+!integration/
+!reports/
+!docs/
+
+# 全局忽略：任何二进制/游戏资产/日志/凭证
+*.pack
+*.pack.bak
+*.save
+*.esf
+*.bin
+*.dat
+*.log
+*.tsv
+*.json.bak
+_secret*
+*secret*
+*credential*
+*token*
+*apikey*
+*api_key*
+_evidence/
+evidence/
+logs/
+build/
+_baseline/
+backup/
+node_modules/
+__pycache__/
+*.pyc
+_copy_index.json
+
+# 放行自研文本文件
+!**/*.lua
+!**/*.py
+!**/*.md
+!**/SHA256_MANIFEST.txt
+!README.md
+!.gitignore
+
+# 双保险：即使被放行规则覆盖，也永不入库
+**/*.pack
+**/*.save
+**/*.log
