@@ -6,6 +6,7 @@
 !df02/
 !integration/
 !integration_v1.0.1/
+!integration_v1.0.2/
 !reports/
 !docs/
 
@@ -44,6 +45,8 @@ _sync_index.json
 !**/SHA256_MANIFEST.txt
 !README.md
 !.gitignore
+# v1.0.2 自研 Dilemma DB 定义与本地化文本（非游戏原始资产）
+!integration_v1.0.2/db/*.tsv
 
 # 双保险：即使被放行规则覆盖，也永不入库
 **/*.pack

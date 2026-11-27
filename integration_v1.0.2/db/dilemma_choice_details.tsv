@@ -1,0 +1,6 @@
+﻿choice_key	dilemma_key	display_dilemma_choice_if_ceo_active	required_ceos
+#cdir_events_dilemma_choice_details_tables;2;db/cdir_events_dilemma_choice_details_tables/lw_policy_v102			
+FIRST	lw_int_dilemma_policy	false	
+SECOND	lw_int_dilemma_policy	false	
+THIRD	lw_int_dilemma_policy	false	
+FOURTH	lw_int_dilemma_policy	false	

@@ -1,0 +1,3 @@
+﻿key	generate	localised_description	localised_title	ui_image	prioritized	event_category	sound_popup_override	sound_click_override	icon_override
+#dilemmas_tables;1;db/dilemmas_tables/lw_policy_v102									
+lw_int_dilemma_policy	false	Choose one policy to introduce in your commanded faction.	Living World: Policy		false	faction			
